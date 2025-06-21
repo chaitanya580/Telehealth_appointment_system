@@ -310,6 +310,42 @@ VALUES (7, 3, '2025-06-22 10:00:00', 'Virtual', 'https://zoom.us/meet/def789', '
 SELECT appointment_id, appointment_datetime, time_zone
 FROM appointments;
 
+-- 1. List all users
+SELECT * FROM users;
+
+-- 2. List all specializations
+SELECT * FROM specializations;
+
+-- 3. List all doctor specializations
+SELECT * FROM doctor_specializations;
+
+-- 4. List all appointments
+SELECT * FROM appointments;
+
+-- 5. List all doctor availability slots
+SELECT * FROM doctor_availability;
+
+-- 6. List all consultation notes
+SELECT * FROM consultation_notes;
+
+-- 7. List all notifications
+SELECT * FROM notifications;
+
+-- 8. List all audit logs
+SELECT * FROM audit_logs;
+
+-- 9. List all feedback
+SELECT * FROM feedback;
+
+-- 10. List all waitlist entries
+SELECT * FROM waitlist;
+
+-- 11. List all recurring appointments
+SELECT * FROM recurring_appointments;
+
+-- 12. List all external calendar events
+SELECT * FROM external_calendar_events;
+
 
 
 
